@@ -1,8 +1,10 @@
-name: pull-request-workflow
-on: pull_request
+name: issue-workflow
+on:
+  issues:
+    types: [opened]
 
 jobs:
-  pusll-request-job:
+  issue-job:
     runs-on: ubuntu-latest
     steps:
       - name: step1
