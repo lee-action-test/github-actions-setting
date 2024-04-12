@@ -33,7 +33,7 @@ jobs:
         with:
           payload: |
             {
-              "attachment": [
+              "attachments": [
                 {
                   "pretext":"create repo result",
                   "color": "28a745",
